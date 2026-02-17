@@ -136,9 +136,9 @@ Open in Proteus, run simulation, and toggle the switch to compare modes.
 
 ### KiCad
 Folder: `kicad/`
-- `lead_compensator.kicad_sch` → schematic
-- `lead_compensator.kicad_pcb` → PCB layout
-- `lead_compensator.kicad_pro` → project settings
+- `lead-compensator.kicad_sch` → schematic
+- `lead-compensator.kicad_pcb` → PCB layout
+- `lead-compensator.kicad_pro` → project settings
 
 Open the `.kicad_pro` project file in KiCad, then inspect schematic/PCB.
 
@@ -160,3 +160,4 @@ Open the `.kicad_pro` project file in KiCad, then inspect schematic/PCB.
 
 ## Keywords (for recruiters and technical readers)
 Root Locus, dominant poles, angle condition, magnitude condition, lead compensator, transient response, overshoot, settling time, circuit-level validation, op-amp analog implementation, PCB design, DRC-clean layout, end-to-end engineering workflow.
+
