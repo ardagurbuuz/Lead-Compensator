@@ -1,26 +1,50 @@
-# OS junk
-.DS_Store
+# OS / editor junk
 Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.lnk
 
-# KiCad junk
-**/fp-info-cache
-**/*-bak
-**/*_autosave-*
-**/*.kicad_prl
+# KiCad (keep: *.kicad_pro, *.kicad_sch, *.kicad_pcb)
+*.kicad_prl
+fp-info-cache
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pcb.lck
 **/*-backups/
+**/backups/
 
-# LTspice junk
-**/*.raw
-**/*.log
-**/*.net
+# KiCad fabrication/exports (don’t version)
+*.gbr
+*.gb?
+*.drl
+*.pos
+*.rpt
+*.d356
+*.svg
+*.pdf
+*.step
+*.stp
 
-# MATLAB/Simulink junk
-**/*.asv
-**/*.m~
-**/slprj/
-**/*.slxc
+# MATLAB / Simulink
+*.asv
+*.m~
+slprj/
+*.slxc
+*.mex*
+*.p
+*.mat
 
-# Proteus junk (genel)
-**/*.tmp
-**/*.bak
-**/*.log
+# LTspice
+*.raw
+*.log
+*.net
+*.op.raw
+
+# Proteus (common temp/backup)
+*.pdsbak
+*.DBK
