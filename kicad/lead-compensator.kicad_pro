@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lead_compensator.kicad_pro",
+    "filename": "lead-compensator.kicad_pro",
     "version": 3
   },
   "net_settings": {
