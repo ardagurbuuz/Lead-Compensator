@@ -1,0 +1,26 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# KiCad junk
+**/fp-info-cache
+**/*-bak
+**/*_autosave-*
+**/*.kicad_prl
+**/*-backups/
+
+# LTspice junk
+**/*.raw
+**/*.log
+**/*.net
+
+# MATLAB/Simulink junk
+**/*.asv
+**/*.m~
+**/slprj/
+**/*.slxc
+
+# Proteus junk (genel)
+**/*.tmp
+**/*.bak
+**/*.log
